@@ -60,7 +60,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
 <meta name="generator" content="Hexo 5.4.0"></head>
-<body class="mdui-appbar-with-toolbar mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-orange">
+<body class="mdui-appbar-with-toolbar mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-deep-orange">
   <script>var a=localStorage.getItem("mdui-theme-layout-dark");if(a){document.getElementsByTagName("body")[0].className+=" mdui-theme-layout-dark"};</script>
   <header id="header" class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-appbar-inset">
   <div class="mdui-toolbar mdui-color-theme">
@@ -88,6 +88,10 @@
         <div class="mdui-grid-tile-title">WoolMicrobe</div>
         <div class="mdui-grid-tile-subtitle"><i class="mdui-icon material-icons">art_track</i>Think out of the box.</div>
       </div>
+      
+        <div class="mdui-grid-tile-buttons">
+          <a href="mailto:blog@greatme.uu.me" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'blog@greatme.uu.me'}"><i class="mdui-icon material-icons">email</i></a>
+        </div>
       
     </div>
   </div>
@@ -143,8 +147,6 @@
 
   <div class="mdui-list" mdui-collapse="{accordion: true}">
     
-      <a href="/tags" class="mdui-list-item mdui-ripple">Tags</a>
-    
       <a href="/gallery" class="mdui-list-item mdui-ripple">Gallery</a>
     
     <div class="mdui-collapse-item">
@@ -154,7 +156,9 @@
       </div>
       <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
         
-          <a href="https://github.com" target="_blank" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme-accent" style="justify-content: center;">Github</a>
+          <a href="https://github.com/" target="_blank" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme-accent" style="justify-content: center;">Github</a>
+        
+          <a href="https://code004accepted.github.io/" target="_blank" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme-accent" style="justify-content: center;">Ender&#39;s Blog</a>
         
         
       </div>
@@ -168,7 +172,7 @@
   <style>#main article .mdui-card-content .center-block{display:block!important;margin-right:auto!important;margin-left:auto!important}</style>
   <article class="mdui-card mdui-m-b-5">
     <header class="mdui-card-media">
-      <img src="/images/random/material-8.png" style="max-height: 240px;">
+      <img src="/images/random/material-16.png" style="max-height: 240px;">
       <div class="mdui-card-media-covered">
         <div class="mdui-card-primary">
           <div class="mdui-card-primary-title">test</div>
@@ -180,7 +184,7 @@
           <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#qrcode', align: 'right'}"><i class="mdui-icon material-icons">devices</i></button>
           <ul class="mdui-menu" id="qrcode">
             
-              <li class="mdui-menu-item"><a class="mdui-text-center mdui-ripple">Send to phone</a></li>
+              <li class="mdui-menu-item"><a class="mdui-text-center mdui-ripple">Send to Phone</a></li>
             
             <li class="mdui-menu-item" disabled>
               
@@ -234,6 +238,10 @@
         <strong>本文链接：</strong><a href="https://criticalservice.github.io/2021/09/13/test/">https://criticalservice.github.io/2021/09/13/test/</a>
       </blockquote>
       
+        <div class="mdui-text-center">
+          <button class="mdui-fab mdui-color-deep-orange mdui-text-color-white mdui-ripple" mdui-dialog="{target: '#donate'}" mdui-tooltip="{content: '打赏', position: 'top'}"><i class="mdui-icon material-icons">local_cafe</i></button>
+        </div>
+      
     </div>
     <footer class="mdui-card-actions">
       
@@ -243,6 +251,22 @@
         <a class="mdui-ripple article_tags-none-link" href="/tags/%E6%B5%8B%E8%AF%95%E6%A0%87%E7%AD%BE/" rel="tag">测试标签</a>
       
     </footer>
+    
+      <div class="mdui-dialog" id="donate">
+        <div class="mdui-tab mdui-tab-centered" mdui-tab>
+          
+            <a href="#donate-0" class="mdui-ripple">Wechat</a>
+          
+        </div>
+        
+        
+          <div id="donate-0" class="mdui-p-a-2 mdui-typo mdui-text-center">
+            
+              <img src="\images\wechat.jpg" style="width: 300px;">
+            
+          </div>
+        
+      </div>
     
   </article>
   
